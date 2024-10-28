@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "484989466431",
+    "project_id": "bite-1536d",
+    "storage_bucket": "bite-1536d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484989466431:android:fa04a7772a2bb789f0858a",
+        "android_client_info": {
+          "package_name": "com.bidayuh.bite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVF2x13lp0FNSjJOJeYeQIu8TMmArfJVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

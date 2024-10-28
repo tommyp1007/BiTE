@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and Secondary Colors -->
+    <color name="colorPrimary">#FF6E27</color> <!-- A warm orange tone -->
+    <color name="colorPrimaryDark">#FF5722</color> <!-- Slightly darker orange -->
+    <color name="colorAccent">#FF8C42</color> <!-- Accent color: Bright orange -->
+
+    <!-- Secondary Colors (Brown for boxes and buttons) -->
+    <color name="colorSecondary">#A0522D</color> <!-- Brown for the background of the text boxes -->
+    <color name="colorSecondaryDark">#8B4513</color> <!-- Darker brown for deeper shadows or elements -->
+
+    <!-- Button Text and Icon Colors -->
+    <color name="buttonColor">#FF8C42</color> <!-- Button color (Orange-ish) -->
+    <color name="textColor">#FFFFFF</color> <!-- Text color (White) -->
+
+    <!-- Background Colors -->
+    <color name="backgroundGradientStart">#FF9800</color> <!-- Gradient starting color (lighter orange) -->
+    <color name="backgroundGradientEnd">#FF5722</color> <!-- Gradient ending color (darker orange) -->
+
+    <!-- Other Colors -->
+    <color name="black">#000000</color> <!-- Black for icons -->
+    <color name="white">#FFFFFF</color> <!-- White text or icons -->
+</resources>

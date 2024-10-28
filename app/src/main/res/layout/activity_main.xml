@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- App Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bite_icon2"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BiTE"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+        <!-- Title for Home Page -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Action"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <!-- Text Translator Button -->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/text_translator"
+            android:layout_gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/idBtnTextTranslator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text Translator"
+            android:textSize="18sp"
+            android:backgroundTint="@color/colorSecondary"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="10dp"/>
+
+        <!-- Voice Translator Button -->
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/voice_translator" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/idBtnVoiceTranslator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voice Translator"
+            android:textSize="18sp"
+            android:backgroundTint="@color/colorSecondary"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="8dp"/>
+
+        <!-- Vocabulary Testing Button -->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/vocabulary_testing"
+            android:layout_gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/idBtnVocabularyTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vocabulary Testing"
+            android:textSize="18sp"
+            android:backgroundTint="@color/colorSecondary"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:drawableStart="@drawable/vocabulary_testing"
+            android:drawablePadding="8dp"/>
+
+        <!-- Word Guess Button -->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/word_guess"
+            android:layout_gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/idBtnWordGuess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Word Guess"
+            android:textSize="18sp"
+            android:backgroundTint="@color/colorSecondary"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:drawableStart="@drawable/word_guess"
+            android:drawablePadding="8dp"/>
+
+        <!-- Logout Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/idBtnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textSize="18sp"
+            android:backgroundTint="@color/colorSecondary"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</ScrollView>
